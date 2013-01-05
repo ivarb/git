@@ -1,0 +1,22 @@
+# Path to PHP_CodeSniffer
+PHPCS_BIN=/usr/bin/phpcs
+
+# the coding standard, you can also specify a path to your own standard here
+# e. g. /path/to/my/standard/dir/
+PHPCS_CODING_STANDARD=PSR2
+
+# comma-separated list of file patterns being ignored
+PHPCS_IGNORE=
+
+# egrep compatible pattern of files to be checked.
+# Check .php and .phtml files
+PHPCS_FILE_PATTERN="\.(php|phtml)$"
+
+# ignore code sniffer warnings
+PHPCS_IGNORE_WARNINGS=1
+
+# file encoding
+PHPCS_ENCODING=utf-8
+
+# PHP tab width
+PHPCS_TAB_WIDTH=4
