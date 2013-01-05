@@ -1,6 +1,6 @@
 [user]
-	name = Your Name
-	email = email@example.com
+    name = Ivar van der Burg
+    email = ivarb@angrybytes.com
 [color]
         diff = auto
         status = auto
@@ -29,9 +29,14 @@
         excludesfile = $HOME/.gitignore
         pager = less -FRSX
         whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+        editor = vim
+        autocrlf = input
+
+[merge]
+    tool = opendiff
 
 [alias]
         ci = commit
         co = checkout
-        st = status
-	df = diff
+    st = status
+    df = diff
